@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 220px) and (max-width: 767px){
+
+    div#divlogin {
+        height: 400px;
+        width: 300px;     
+    }
+
+    div#dados{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div.campo{
+        width: 180px;
+        height: 25px;
+        margin: 20px 60px auto;
+    }
+
+    div#cadastrar {
+        display: block;
+        width: 180px;
+        height: 25px;
+        margin: 30px 60px auto;
+    }
+
+    div#cadastrar>input{
+        padding: 5px 52.5px;    
+    }
+
+    div#voltar>a{
+        font-size: 14px;
+    }
+
+   }

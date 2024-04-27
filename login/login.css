@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+div#divlogin {
+    background-color: white;
+    height: 510px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);          
+}
+
+div#dados{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.campo{
+    border: 2px solid black;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: 50px 150px auto;
+}
+
+div.campo>input {
+    background-color: rgb(248, 246, 246);
+    border: 0px;
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    text-indent: 10px;
+}
+
+div#entrar {
+    display: block;
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 50px 150px auto;
+    border: 2px solid black;
+}
+
+div#entrar>input{
+    font-size: 11px;
+    border: none;
+    border: 0px;
+    margin-top: 14px;
+    padding: 7px 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    cursor: pointer;           
+}
+
+div#cadastrese{
+    margin-top: 10px;
+}
+
+div#cadastrese>a{
+    color: black;
+    text-decoration: none;
+}

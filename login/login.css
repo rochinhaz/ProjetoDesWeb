@@ -11,6 +11,15 @@ body{
     background-color: rgb(230, 230, 230);
 }
 
+div#imgLogin> img{
+    position: absolute;
+    height: 120x;
+    width: 90px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 div#divlogin {
     background-color: white;
     height: 510px;
@@ -61,7 +70,7 @@ div#entrar {
     border: 2px solid black;
 }
 
-div#entrar>input{
+div#entrar>a>input{
     font-size: 11px;
     border: none;
     border: 0px;

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0px;
@@ -12,16 +13,26 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(129, 129, 129);
 }
 
 header>p{
     margin: 5px;
+    font-family: "Advent Pro", sans-serif;
+    font-size: 20px;
+}
+
+header>p>a{
+    display: block;
+    font-family: "Advent Pro", sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 header>p>img{
     width: 100px;
     height: 130px;
+    margin-right: 70px;
 }
 
 body{
@@ -34,7 +45,7 @@ nav {
     justify-content: space-around;
     width: 100vw;
     height: 4vh;
-    background-color: white;    
+    background-color: rgb(151, 151, 151);    
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
 }
 
@@ -58,14 +69,30 @@ main {
     display: block;
     margin: 15px;
     background-color: white;
-    width: 97.5vw;
+    width: 50vw;
     height: 60vh;
+    position: relative;
+    left: 25%;
+    border: 0.5px solid rgba(0, 0, 0, 0.281);
+}
+
+footer{
+    margin-top: 80px;
+    width: 50vw;
+    position: relative;
+    left: 43%;
+    font-size: 12px;
 }
 
 iframe#tela{
-    width: 97.5vw;
+    width: 50vw;
     height: 60vh;
     border: none;
     overflow: hidden;
     scrollbar-width: none;
+}
+
+footer>p>a{
+    text-decoration: none;
+    color: black;
 }

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 220px) and (max-width: 767px){
+    
+    header {
+        position: absolute; left: 11.6%;
+        margin: 20px 15px 20px 10px;
+        width: 83.5%;
+        height: 7%;
+    }
+    
+    .containerhinicio{
+        width: 45%;
+    }
+        
+    header > div.containerhinicio> input {
+        margin-left: 6px;
+        border-radius: 5px;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    header > div.containerhinicio > button {
+        display: none;
+    }
+    
+    .containerhfinal{
+        gap: 8px;
+    }
+    
+    header > div.containerhfinal > p {
+        font-size: 11px;
+        padding: 5px;
+        padding-right: 8px;
+    }
+    
+    header > div.containerhfinal > a {
+        font-size: 11px;
+        margin-right: 8px;
+    }
+    
+    header > div.containerhfinal > img {
+        display: none;
+    }
+    
+    nav {
+        display:block;
+        width:10vw;
+        height: 108vh;
+    }
+    
+    nav>hr{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    nav > #logoNav {
+        display: none;
+    }
+    
+    nav > a{
+        font-size: 9px;
+        margin-left: 3px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .bttexto{
+        display: none;
+    }
+    
+    main {
+        position: absolute; left: 13%; top: 15%;
+        margin: 6px;
+        width: 83vw;
+        height: 75vh;
+    }
+    
+    iframe#tela{
+        width: 83vw;
+        height: 75vh;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px){
+    
+    header {
+        position: absolute; left: 23.1%;
+        margin: 20px 15px 20px 10px;
+        width: 75.2%;
+        height: 7%;
+    }
+    
+    .containerhinicio{
+        gap: 5px;
+        width: 40%;
+    }
+    
+    header > div.containerhinicio> input {
+        margin-left: 15px;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    header > div.containerhinicio > button {
+        display: none;
+    }
+    
+    .containerhfinal{
+        gap: 10px;
+    }
+    
+    header > div.containerhfinal > p {
+        padding: 7px;
+        padding-right: 15px;
+    }
+    
+    header > div.containerhfinal > a {
+        margin-right: 15px;
+    }
+    
+    header > div.containerhfinal > img {
+        width: 30px;
+        height: 30px;
+    }
+
+    nav {
+        width: 20vw;
+        height: 100vh;
+    }
+
+    nav > #logoNav {
+        height: 60px;
+        gap: 10px;
+        margin-left: 15px;
+    }
+
+    nav >#logoNav> #pLogoNav{
+        font-size: 18px;
+    }
+
+    nav >#logoNav> #p2LogoNav{
+        font-size: 9px;
+    }
+    
+    nav>hr{
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    main {
+        margin: 0px 20px 20px 20px;
+        width: 75vw;
+        height: 80vh;
+    }
+    
+    iframe#tela{
+        width: 75vw;
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    header {
+        position: absolute; left: 22%;
+        width: 75.2%;
+    }
+}

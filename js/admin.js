@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const userForm = document.getElementById('userForm');
     const userList = document.getElementById('userList');
     const search = document.getElementById('search');
-    const searchButton = document.getElementById('searchButton');
-    const clearFormBtn = document.getElementById('clearForm');
-    const clearListBtn = document.getElementById('clearList');
+    const searchButton = document.getElementById('searchBt');
+    const clearFormBtn = document.getElementById('clearField');
+    const clearListBtn = document.getElementById('clearAll');
 
     function loadUsers(filteredUsers = null) {
         userList.innerHTML = '';
